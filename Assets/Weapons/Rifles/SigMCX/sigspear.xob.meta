@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{E6729ED2F3D5458E}Assets/Weapons/Rifles/SigSpear/sigspear.xob"
+ Name "{E6729ED2F3D5458E}Assets/Weapons/Rifles/SigMCX/sigspear.xob"
  Configurations {
   FBXResourceClass PC {
    ExportSkinning 1
@@ -7,43 +7,23 @@ MetaFileClass {
    MaterialAssigns {
     MaterialAssignClass "{615327FDF6145562}" {
      SourceMaterial "sig_xm7_01"
-     AssignedMaterial "{46F2012EE26D4D3D}Assets/Weapons/Rifles/SigSpear/Data/sig_xm7_01.emat"
+     AssignedMaterial "{46F2012EE26D4D3D}Assets/Weapons/Rifles/SigMCX/Data/sig_xm7_01.emat"
     }
     MaterialAssignClass "{615327FDF6145506}" {
      SourceMaterial "sig_xm7_02"
-     AssignedMaterial "{181A286D5DE0C332}Assets/Weapons/Rifles/SigSpear/Data/sig_xm7_02.emat"
+     AssignedMaterial "{181A286D5DE0C332}Assets/Weapons/Rifles/SigMCX/Data/sig_xm7_02.emat"
     }
     MaterialAssignClass "{615327FDF6145503}" {
      SourceMaterial "sig_xm7_03"
-     AssignedMaterial "{EC126FF5503DAB46}Assets/Weapons/Rifles/SigSpear/Data/sig_xm7_03.emat"
+     AssignedMaterial "{EC126FF5503DAB46}Assets/Weapons/Rifles/SigMCX/Data/sig_xm7_03.emat"
     }
    }
    MeshParams {
-    MeshParam sig_xm7_body {
-    }
-    MeshParam sig_xm7_bolt {
-    }
-    MeshParam sig_xm7_bolt_release {
-    }
-    MeshParam sig_xm7_charging_handle_side {
-    }
-    MeshParam sig_xm7_charging_handle_side_base {
-    }
-    MeshParam sig_xm7_charging_handle_top {
-    }
-    MeshParam sig_xm7_cover {
-    }
-    MeshParam sig_xm7_mag_release {
-    }
-    MeshParam sig_xm7_selector {
-    }
-    MeshParam sig_xm7_stock {
-    }
-    MeshParam sig_xm7_trigger {
+    MeshParam SIG_XM7 {
     }
    }
    GeometryParams {
-    GeometryParam UCX_sig_xm7_body_LOD0 {
+    GeometryParam UCX_XM7_body {
      LayerPreset "Weapon"
      SurfaceProperties {
       "{3B2D2687F56BB4EF}Common/Materials/Game/WeaponParts/weapon_metal.gamemat"
@@ -51,7 +31,7 @@ MetaFileClass {
      Mass 0
      Margin 0
     }
-    GeometryParam UTM_XM7_body {
+    GeometryParam UTM_XM7_firegeo {
      LayerPreset "FireGeo"
      SurfaceProperties {
       "{3B2D2687F56BB4EF}Common/Materials/Game/WeaponParts/weapon_metal.gamemat"
