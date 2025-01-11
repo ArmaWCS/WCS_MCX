@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{ADBCBCB159691F50}Assets/Weapons/Ammo/Bullets/68x51/Data/sig_xm7_bullet.003_BCR.edds"
+ NMOMap "{95640723801E4DCE}Assets/Weapons/Ammo/Bullets/68x51/Data/sig_xm7_bullet.003_NMO.edds"
+}

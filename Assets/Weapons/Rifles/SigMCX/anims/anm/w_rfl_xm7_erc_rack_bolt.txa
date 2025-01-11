@@ -1,0 +1,60 @@
+$animation "" {
+ #version 1.0
+ #fps 30
+ #numFrames 47
+ $node "w_bolt" {
+  $keys t q s {
+   $frame 0 17 {
+    #t 0 0.0861762 0.0490806
+   }
+   $frame 18 {
+    #t 0 0.0861762 0.0263975
+   }
+   $frame 19 {
+    #t 0 0.0861762 -0.0157283
+   }
+   $frame 20 26 {
+    #t 0 0.0861762 -0.0384113
+   }
+   $frame 27 {
+    #t 0 0.0861762 -0.0157283
+   }
+   $frame 28 {
+    #t 0 0.0861762 0.0263975
+   }
+   $frame 29 47 {
+   }
+  }
+  $node "w_charging_handle" {
+   $keys t q s {
+    $frame 0 17 {
+     #t -0.0000001 0.1179132 -0.0834048
+    }
+    $frame 18 {
+     #t -0.0000001 0.1179132 -0.1097668
+    }
+    $frame 19 {
+     #t -0.0000001 0.1179132 -0.1587248
+    }
+    $frame 20 26 {
+     #t -0.0000001 0.1179132 -0.1850867
+    }
+    $frame 27 {
+     #t -0.0000001 0.1179132 -0.1587248
+    }
+    $frame 28 {
+     #t -0.0000001 0.1179132 -0.1097668
+    }
+    $frame 29 47 {
+    }
+   }
+  }
+ }
+ $events {
+  #event 0 "BlendIn" "" -1 0 "" 0
+  #event 2 "Sound" "SOUND_RELOAD_MAG_HANDLING" 2 0 "" 1
+  #event 14 "Sound" "SOUND_RELOAD_BOLT_PULL" 3 0 "" 1
+  #event 24 "Sound" "SOUND_RELOAD_BOLT_RELEASE" 4 0 "" 1
+  #event 42 "Sound" "SOUND_RELOAD_MAG_HANDLING" 2 0 "" 1
+ }
+}

@@ -1,0 +1,64 @@
+GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  AICombatPropertiesComponent "{59CE86D96C332DDF}" {
+   Priority 33
+   UsedAgainst 23
+  }
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "XM7 20rnd Magazine (Match)"
+     Description "Standard issue XM7 magazine loaded with 6.8x51mm match ammunition."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{615327C2E4E19DCC}" {
+     Weight 0.225
+     SizeSetupStrategy Manual
+     ItemVolume 200
+     RestingUP Right
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{615327C2E4E19DCB}" {
+      CameraPreset Left
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 0.9
+      FOV 10
+     }
+    }
+   }
+   WeightPerAmmo 0.02
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell MagazineWellXM7 "{615327C2E4E16232}" {
+   }
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Name "XM7 20rnd Magazine (Match)"
+    Description "Standard issue XM7 magazine loaded with 6.8x51mm match ammunition."
+    m_sAmmoCaliber "6.8x51mm"
+    m_sAmmoType "Match"
+    m_bShowAmmoTypeText 1
+    m_eAmmoTypeFlags AP
+   }
+   ItemModel "{432BEE8D5D893398}Assets/Weapons/Magazines/SigSpear/xm7mag.xob"
+   MaxAmmo 20
+   AmmoConfig "{6FD3B8449D78B54F}Configs/Weapons/Ammo/Ammo_68x51.conf"
+   AmmoMapping {
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{9FDEBAC21ADCF157}Assets/Weapons/Magazines/SigSpear/xm7magempty.xob"
+   LODFactors {
+   }
+  }
+  ActionsManagerComponent "{F092E6B0537754FD}" {
+   additionalActions {
+    SCR_AttachItemFromInventoryAction "{5A1E58F7D9256374}" {
+     UIInfo UIInfo "{5A1E58F7D137DE75}" {
+      Name "Attach "
+     }
+    }
+   }
+  }
+ }
+}

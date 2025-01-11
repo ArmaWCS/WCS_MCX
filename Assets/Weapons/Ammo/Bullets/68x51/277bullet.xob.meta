@@ -1,0 +1,39 @@
+MetaFileClass {
+ Name "{C81AF7443940BC3A}Assets/Weapons/Ammo/Bullets/68x51/277bullet.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{615327C19CFE8F9A}" {
+     SourceMaterial "sig_xm7_03"
+     AssignedMaterial "{8A7989C733279187}Assets/Weapons/Ammo/Bullets/68x51/Data/sig_xm7_03.emat"
+    }
+   }
+   MeshParams {
+    MeshParam sig_xm7_bullet {
+    }
+   }
+   Common TXOCommonClass "{615327C19CF3A99C}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{615327C19CF3AE1F}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{615327C19CF3AE64}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{615327C19CF3AE59}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{615327C19CF3AEBF}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{615327C19CF3AE9D}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

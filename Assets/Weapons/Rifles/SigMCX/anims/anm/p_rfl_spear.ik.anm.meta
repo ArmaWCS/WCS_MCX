@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7E2F41C7FA9E104E}Assets/Weapons/Rifles/SigMCX/anims/anm/p_rfl_spear.ik.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

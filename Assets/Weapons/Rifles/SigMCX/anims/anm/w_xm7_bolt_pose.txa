@@ -1,0 +1,42 @@
+$animation "" {
+ #version 1.0
+ #fps 30
+ #numFrames 3
+ $node "w_bolt" {
+  $keys t q {
+   $frame 0 {
+    #t 0 0.0861762 0.0490806
+   }
+   $frame 1 {
+    #t -0 0.0861762 -0.0455152
+   }
+   $frame 2 {
+    #t 0 0.0861762 0.0191102
+   }
+   $frame 3 {
+   }
+  }
+  $node "w_bolt_release" {
+   $keys t q {
+    $frame 0 3 {
+     #t -0.0159133 0.0531121 0.0287128
+    }
+   }
+  }
+  $node "w_bolt_handle" {
+   $keys t q {
+    $frame 0 {
+     #t 0.0002238 -0.0865002 -0.0487493
+    }
+    $frame 1 {
+     #t 0.0002239 -0.0865002 0.0458465
+    }
+    $frame 2 {
+     #t 0.0002238 -0.0865002 -0.018779
+    }
+    $frame 3 {
+    }
+   }
+  }
+ }
+}

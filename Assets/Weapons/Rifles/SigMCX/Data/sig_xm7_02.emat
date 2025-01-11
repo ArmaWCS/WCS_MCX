@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{12803C2D306DB5B1}Assets/Weapons/Rifles/SigSpear/Data/sig_xm7_02.001_BCR.edds"
+ NMOMap "{2A5887BFE91AE72F}Assets/Weapons/Rifles/SigSpear/Data/sig_xm7_02.001_NMO.edds"
+}

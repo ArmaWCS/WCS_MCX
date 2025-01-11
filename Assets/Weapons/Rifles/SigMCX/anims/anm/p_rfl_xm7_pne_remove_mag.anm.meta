@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{74A4A794AD1F5540}Assets/Weapons/Rifles/SigMCX/anims/anm/p_rfl_xm7_pne_remove_mag.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{181A286D5DE0C332}Assets/Weapons/Rifles/SigSpear/Data/sig_xm7_02.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

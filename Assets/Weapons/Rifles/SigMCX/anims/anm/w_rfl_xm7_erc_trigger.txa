@@ -1,0 +1,13 @@
+$animation "" {
+ #version 1.0
+ #fps 30
+ #numFrames 2
+ $node "w_trigger" {
+  $keys t q {
+   $frame 0 2 {
+    #t -0 0.0398082 -0.0059653
+    #q 0.1656455 0.02336199 -0.01390989 0.98581052
+   }
+  }
+ }
+}

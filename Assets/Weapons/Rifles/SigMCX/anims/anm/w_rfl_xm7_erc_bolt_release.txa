@@ -1,0 +1,35 @@
+$animation "" {
+ #version 1.0
+ #fps 30
+ #numFrames 39
+ $node "w_bolt_release" {
+  $keys q s {
+   $frame 0 13 {
+    #q 0.00000004 0 0.06163577 0.99809879
+   }
+   $frame 14 {
+    #q 0.00000004 0 0.03083254 0.99952465
+   }
+   $frame 15 39 {
+    #q 0 0 0 1
+   }
+  }
+  $node "w_bolt" {
+   $keys t s {
+    $frame 0 13 {
+     #t 0 0.0861762 -0.0385952
+    }
+    $frame 14 {
+     #t 0 0.0861762 0.0052427
+    }
+    $frame 15 39 {
+     #t 0 0.0861762 0.0490806
+    }
+   }
+  }
+ }
+ $events {
+  #event 12 "Sound" "SOUND_RELOAD_BOLT_QUICK_RELEASE" 6 0 "" 1
+  #event 13 "Weapon_Rack_Bolt" "" -1 0 "" 0
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F9B6FDBC20C1D7A0}Assets/Weapons/Rifles/SigSpear/anims/anm/w_rfl_xm7_erc_fire.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

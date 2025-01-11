@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{501E5DBC8B09D6D0}Assets/Weapons/Rifles/SigMCX/Data/sig_xm7_fde.002_BCR.edds"
+ NMOMap "{68C6E62E527E844E}Assets/Weapons/Rifles/SigMCX/Data/sig_xm7_fde.002_NMO.edds"
+}

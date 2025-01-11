@@ -1,0 +1,72 @@
+GenericEntity : "{C63227C0E70EA62E}Prefabs/Weapons/Rifles/M16/Rifle_M16A2_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{E6729ED2F3D5458E}Assets/Weapons/Rifles/SigMCX/sigspear.xob"
+   Materials {
+    MaterialAssignClass "{6453307426614694}" {
+     SourceMaterial "sig_xm7_01"
+     AssignedMaterial "{A3230E0CC361FB62}Assets/Weapons/Rifles/SigMCX/Data/sig_MCX_01.emat"
+    }
+    MaterialAssignClass "{64533074266146A6}" {
+     SourceMaterial "sig_xm7_02"
+     AssignedMaterial "{FDCB274F7CEC756D}Assets/Weapons/Rifles/SigMCX/Data/sig_MCX_02.emat"
+    }
+   }
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemAnimationAttributes ItemAnimationAttributes "{5284960E1D29F45C}" {
+     AnimationIKPose "{EABE85D20A30C77D}Assets/Weapons/Rifles/SigMCX/anims/anm/p_rfl_sigspear_ik.anm"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5534745C44D1EF58}" {
+     AttachmentType AttachmentOpticsRIS1913 "{5A5CDB17A85868B7}" {
+     }
+    }
+    AttachmentSlotComponent "{56DE9C900611C1AF}" {
+     AttachmentSlot InventoryStorageSlot Handguard {
+      PivotID ""
+      Enabled 0
+      Prefab "{FB1A7F5BC7D935E2}Prefabs/Weapons/Attachments/Handguards/Handguard_M16A2/Handguard_M16.et"
+     }
+    }
+    AttachmentSlotComponent "{5F16E0B4B2D0D72C}" {
+     AttachmentSlot InventoryStorageSlot BayonetSlot {
+      Enabled 0
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{5D527627CCB8F756}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        ChildPivotID "snap_barrel_muzzle"
+       }
+      }
+     }
+     FireModes {
+      BaseFireMode "{619AB45BF76565F3}" {
+       MaxBurst -1
+       RoundsPerMinute 850
+       UIName "Auto"
+      }
+     }
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+      Offset 0 0 -0.0059
+     }
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     AnimGraph "{C10E1E127E210526}Assets/Weapons/Rifles/workspaces/m16.agr"
+     AnimInstance "{C2B704C28B3D471D}Assets/Weapons/Rifles/workspaces/SigSpear_weapon.asi"
+     AnimInjection AnimationAttachmentInfo "{5534745C44D1EF5A}" {
+      AnimGraph "{C10E1E127E210526}Assets/Weapons/Rifles/workspaces/m16.agr"
+      AnimInstance "{39E995F3133C23F1}Assets/Weapons/Rifles/workspaces/SigSpear_player.asi"
+     }
+    }
+   }
+  }
+ }
+}

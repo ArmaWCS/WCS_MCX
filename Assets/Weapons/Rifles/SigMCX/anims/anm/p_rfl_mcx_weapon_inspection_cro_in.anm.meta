@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{BA0EEB2621BFCE68}Assets/Weapons/Rifles/SigMCX/anims/anm/p_rfl_mcx_weapon_inspection_cro_in.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}
